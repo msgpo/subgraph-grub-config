@@ -1,0 +1,20 @@
+subgraph-grub-config (0.5) unstable; urgency=medium
+
+  * Removed grub dependency
+  * Removed apparmor dependencies
+  * Removed displace, use update-alternatives for grub background
+
+ -- David McKinney <mckinney@subgraph.com>  Mon, 13 Mar 2017 16:42:00 -0400
+
+subgraph-grub-config (0.4) unstable; urgency=medium
+
+  * Added apparmor to kernel boot parameters 
+  * Added apparmor userland packages as dependencies 
+
+ -- David McKinney <mckinney@subgraph.com>  Fri, 22 Apr 2016 03:20:21 +0000
+
+subgraph-grub-config (0.1) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- David McKinney <mckinney@subgraph.com>  Mon, 01 Feb 2016 18:46:56 +0000
