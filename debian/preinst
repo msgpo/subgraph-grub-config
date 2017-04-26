@@ -1,0 +1,19 @@
+#!/bin/sh -e                                                                    
+set -e 
+
+case "$1" in                                                                    
+  install|upgrade)                                                              
+    for background in \
+      lines-grub.png \
+      lines-grub-1920x1080.png \
+      joy-grub.png \
+      spacefun-grub.png \
+      spacefun-grub-widescreen.png \
+      grub-16x9.png \
+      grub-4x3.png \
+    ; do
+      update-alternatives --remove desktop-grub /usr/share/images/desktop-base/$background
+      update-alternatives --remove desktop-grub /usr/share/desktop-base/active-theme/grub/$background
+    done
+  ;;
+esac
