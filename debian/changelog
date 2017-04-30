@@ -1,3 +1,10 @@
+subgraph-grub-config (0.7.0-1) unstable; urgency=medium
+
+  * Re-instating displace for /etc/default/grub to re-add quiet/splash boot
+    options
+
+ -- David McKinney <mckinney@subgraph.com>  Sun, 30 Apr 2017 14:19:27 +0000
+
 subgraph-grub-config (0.6.0-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
